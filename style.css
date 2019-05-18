@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+
+}
+
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid yellow;
+}
+
+.contactItem:last-child {
+    border-bottom: 1px solid yellow;
+}
+
+.contactImage {
+    margin: 15px;
+}
+
+input {
+    margin: 20px 5px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.contactLabel,
+.contactEmail {
+    line-height: 150px;
+    font-size: 1.3em;
+}
+
+.contactEmail {
+    text-decoration: none;
+}
